@@ -12,6 +12,9 @@ __pycache__/
 # Ignore arquivos de log
 *.log
 
+# Ignore arquivos de configuração local
+.env
+
 # Ignore dados grandes ou sensíveis (se for o caso)
 data/
 *.csv
