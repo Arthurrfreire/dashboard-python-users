@@ -1,1 +1,36 @@
+# Ignore arquivos de ambiente virtual
+.venv/
+env/
+venv/
+ENV/
+__pycache__/
+*.py[cod]
+
+# Ignore arquivos do Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore arquivos de log
+*.log
+
+# Ignore arquivos de configuração local
 .env
+
+# Ignore dados grandes ou sensíveis (se for o caso)
+data/
+*.csv
+
+# Ignore arquivos de pacotes Python locais
+*.egg-info/
+*.eggs/
+build/
+dist/
+
+# Ignore arquivos de cache do PyTest
+.cache/
+
+# Ignore configurações específicas do VSCode
+.vscode/
+
+# Ignore arquivos de cache de IPython
+profile_default/
+ipython_config.py
